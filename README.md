@@ -25,7 +25,7 @@ assets/img|video|audio|fonts
 
 33 HTML pages in total, all in the project root.
 
-> The `build/` generator, `docs/` and `clone-kit/` folders from earlier versions are no longer in this folder. The pages are now edited directly.
+> The `build/` generator and `docs/` folders from earlier versions are no longer in this folder. The pages are now edited directly.
 
 ## Editing
 
@@ -62,4 +62,4 @@ Forms never send data anywhere. They validate and then show a thank-you message.
 
 ## Checks
 
-The audit and interaction-test scripts (`laudit.mjs`, `itest.mjs`) were part of the removed `clone-kit/` folder. Before release, check manually at 1440 and 390 px width for console errors, failed requests, broken images and links, and horizontal overflow.
+The audit and interaction-test scripts (`laudit.mjs`, `itest.mjs`) were removed from this folder. Before release, check manually at 1440 and 390 px width for console errors, failed requests, broken images and links, and horizontal overflow.
